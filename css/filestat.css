@@ -1,0 +1,4 @@
+#filestattable { border-collapse:collapse;border: 1px solid black;}
+td { border: 1px solid black;padding:10px;}
+.notcurrent { color:red; font-weight:bold; }
+.current { color:black; font-weight:normal;}

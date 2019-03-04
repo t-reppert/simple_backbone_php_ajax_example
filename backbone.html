@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Filestat</title>
+    <link rel="stylesheet" type="text/css" href="css/filestat.css">
+</head>
+<body>
+<div id="filestat"></div>
+<script type="text/template" id="filestat-template">
+    <table id="filestattable">
+        <tr>
+            <td id="ecsfile"><%= ecsfile %></td>
+            <td id="status" class="<%= statusclass %>"><%= status %></td>
+            <td id="filedate"><%= filedate %></td>
+        </tr>
+    </table>
+</script>
+<script src="js/jquery.min.js"></script>
+<script src="js/underscore-min.js"></script>
+<script src="js/backbone-min.js"></script>
+<script src="js/example.js"></script>
+</body>
+</html>
